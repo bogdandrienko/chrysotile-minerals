@@ -1,0 +1,1 @@
+web: gunicorn chrysotile_minerals.wsgi
