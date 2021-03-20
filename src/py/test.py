@@ -1,15 +1,24 @@
-from myclass import Crud
+class RationalModel():
+    rational_name = 'ivan'
+    rational_place_innovation = f'uploads/rational/{rational_name}/'
 
-object1 = Crud()
+    def name(self):
+        return self.rational_place_innovation
+a = RationalModel
+# print(RationalModel.name(a))
 
-print(object1)
 
-value1 = object1.read()
+bool_value = True
+float_value = 10.5
+integer_value = 10
+string_value = 'hello'
+list_value = ["Hi!", 100, 10.5]
+dict_value = {'maxLevel': 80, "currentLevel": 79.5}
+tuple_value = (100, 'experience', "maximum")
+set_value = {'exp', 100.5, "12"}
 
-print(value1)
+# Проверка на тип переменной:
+def check_type_of_variable(variable):
+    return type(variable)
 
-for item in value1:
-    print(item)
-
-for key, item in value1.items():
-    print(str(key)+' - '+str(item))
+print(check_type_of_variable(set_value))

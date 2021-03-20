@@ -1,2 +1,2 @@
-# chrysotile-minerals
-chrysotile minerals web app
+# kostanay-minerals
+kostanay minerals web platform
