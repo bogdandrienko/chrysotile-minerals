@@ -63,6 +63,8 @@ INSTALLED_APPS = [
     'app_message.apps.AppMessageConfig',
 
     'app_application.apps.AppApplicationConfig',
+
+    'app_todo_list'
 ]
 
 MIDDLEWARE = [
